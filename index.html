@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Toxin Hotel</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+<link rel="manifest" href="./favicons/site.webmanifest">
+<link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+  <link href="index.css" rel="stylesheet"><script type="text/javascript" src="index.js"></script></head>
+  <body>
+    <main>
+      <header>
+        <div class="wrapper"><a class="header__logo" href="index.html"> <img src="../.././img/color-logo.svg" alt="Main Logo"></a>
+          <div class="header__nav-but-wrap">
+            <nav> 
+              <ul class="headerButtons__mainMenu">
+                <li> <a href="/mock-address/change-me">О нас</a></li>
+                <li><a href="/mock-address/change-me">Услуги</a></li>
+                <li><a href="/mock-address/change-me">Вакансии</a></li>
+                <li><a href="/mock-address/change-me">Новости</a></li>
+                <li><a href="/mock-address/change-me">Соглашения</a></li>
+              </ul>
+            </nav>
+            <div class="headerButtons__buttons"><a class="btn btnBorder" href="./login-page.html">войти</a><a class="btn btnFill" href="./reg-page.html">зарегистрироваться</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="landingBody">
+        <div class="landingBody__wrapper">
+          <div class="landingBody__bg">
+            <div class="card searchRoom">
+              <h1>Найдем номера под ваши пожелания</h1>
+              <div class="flex">
+<div class="searchRoom__arrival">
+  <h3>пРиБыТие</h3>
+  <div class="dataDropdown">
+    <label for="start"> </label>
+    <input class="datepicker-here datepickers" id="start" type="text" placeholder="ДД.ММ.ГГГГ" data-clear-Button="true" data-apply-Button="true">
+  </div>
+</div>
+<div class="searchRoom__departure">
+  <h3>выезд</h3>
+  <div class="dataDropdown">
+    <label for="end"> </label>
+    <input class="datepicker-here datepickers" id="end" type="text" placeholder="ДД.ММ.ГГГГ" data-clear-Button="true" data-apply-Button="true">
+  </div>
+</div>
+              </div>
+              <div class="dropdownGuest">
+                <h3>гости</h3>
+<label for="dropdownGuest"> 
+  <input id="dropdownGuest" name="guest" type="text" readonly placeholder="Сколько гостей">
+</label>
+              </div><a class="btn btnLong" href="./search.html">подобрать номер</a>
+            </div>
+          </div>
+          <p class="landingBody__bottomText">Лучшие номера для вашей работы, отдыха и просто вдохновения</p>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-big">
+          <div class="wrapper">
+            <div class="footer-big__main">
+              <div class="footer-big__logo"><a class="header__logo" href="index.html"> <img src="../.././img/color-logo.svg" alt="Main Logo"></a>
+                <p>Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»</p>
+              </div>
+              <div class="footer-big__menus">
+                <div class="footer-big__list footer-big__nav">
+                  <h3 class="footer-big__headline">навигация</h3>
+                  <ul>
+                    <li><a href="">О нас</a></li>
+                    <li><a href="">Новости</a></li>
+                    <li><a href="">Служба поддержки</a></li>
+                    <li><a href="">Услуги</a></li>
+                  </ul>
+                </div>
+                <div class="footer-big__list footer-big__about">
+                  <h3 class="footer-big__headline">О нас</h3>
+                  <ul>
+                    <li><a href="">О сервисе</a></li>
+                    <li><a href="">Наша команда</a></li>
+                    <li><a href="">Вакансии</a></li>
+                    <li><a href="">Инвесторы</a></li>
+                  </ul>
+                </div>
+                <div class="footer-big__list footer-big__support">
+                  <h3 class="footer-big__headline">Служба поддержки</h3>
+                  <ul>
+                    <li><a href="">Соглашения</a></li>
+                    <li><a href="">Сообщества</a></li>
+                    <li><a href="">Связь с нами</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer-big__subscribe">
+                <h3 class="footer-big__headline">Подписка</h3>
+                <p>Получайте специальные предложения и новости сервиса</p>
+                <form class="formEmail" action="#" method="post">
+                  <input type="email" name="email" placeholder="Email">
+                  <input type="submit" value="">
+                </form>
+              </div>
+            </div>
+            <div class="footer-big__copyright">
+              <p>Copyright © 2018 Toxin отель. Все права зачищены.</p>
+              <div class="footer-big__social"> <a class="footer-big__twitter" href=""> </a><a class="footer-big__facebook" href=""> </a><a class="footer-big__instagram" href=""></a></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
+<script>var now = new Date();
+var endDate = new Date(now.getTime() + 365*24*60*60*1000)
+var $start = $('#start'),
+    $end = $('#end');
+var $datepickers = $('.datepickers');
+
+$datepickers.datepicker({
+    language: 'ru',
+    // offset: ,
+    
+    minDate: now,
+    maxDate: endDate,
+    multipleDatesSeparator: "-",
+    range: true,
+      onSelect: function (fd, date) {
+        $end.data('datepicker')
+                .update('selectedDates', $start.data('datepicker').selectedDates);
+        var start = fd.split('-')[0]
+        var end = fd.split('-')[1];
+        if (end) {
+          $start.val(start);
+          $end.val(end);
+        } else {
+          $end.val('')
+        }
+        console.log($start.data('datepicker'));
+    }
+})
+</script>
+<script>$("input[name='guest']").guest({
+    categoryNames: ["Взрослые", "Дети", "Младенцы"],
+    categoryValues: false,
+    minValue: 0,
+    maxValue: 10,
+    closeOnOutsideClick: false,
+    showText: true,
+    delimiter: ", ",
+    align: "left",
+    fade: true,
+    useDisplay: false,
+    showZero: false,
+});
+</script>
